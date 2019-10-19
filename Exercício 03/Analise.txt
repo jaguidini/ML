@@ -1,0 +1,22 @@
+Atributo													  Evadiu      Ativo
+SISTEMAS_DE_INFORMACAO                                         1.6293     7.4126
+RACIOCINIO_LOGICO                                               0.984     5.8054
+METODOLOGIA_CIENTIFICA                                       793.7788  1191.3323
+MATEMATICA                                                     0.9144     5.3997
+DESENVOLVIMENTO_DE_SOFTWARE                                    0.9411     5.9302
+APLICATIVOS_MOVEIS                                              0.806     5.5256
+
+Conforme os dados os alunos que mais evadem são os que tem dificuldades com materias de exatas.
+
+SimpleKmeans
+0      168 ( 40%) Evadido
+1      255 ( 60%) Ativo
+
+Expectation Maximization
+0      204 ( 48%) Ativo
+1      109 ( 26%) No class
+2      110 ( 26%) Evadido
+
+O resultado dos 2 agrupamentos de clusters teve uma diferença significativa. NO Kmeans ele conseguiu dividir todos os registros em 2 centroids. 
+E no EM ele teve uma perda de 26%, onde ele não conseguiu atribuir uma class aos registros.
+Sendo assim, o SimpleKmeans aplica-se melhor neste caso.
